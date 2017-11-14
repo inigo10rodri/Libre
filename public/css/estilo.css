@@ -35,6 +35,7 @@ html, body {
 
 .title {
     font-size: 84px;
+    text-shadow: 3px 3px blue;
 }
 
 .links > a {
@@ -67,13 +68,13 @@ html, body {
     background-color: #000000;
 }
 a{
-    color: white;
+    color: green;
 }
 input[type="button"]{
     background-color: orange;
 }
 .tamanopanel{
-    width: 150px;
+    width: 175px;
     height: 200px;
     float: left;
     margin:20px;
@@ -84,5 +85,6 @@ input[type="button"]{
 #nba{
     margin-bottom: 0px;
 }
+
 
 

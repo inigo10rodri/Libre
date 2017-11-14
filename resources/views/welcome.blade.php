@@ -13,6 +13,7 @@
         <!-- Styles -->
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="css/estilo.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -38,4 +39,46 @@
             </div>
         </div>
     </body>
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <div class= "col-lg-12 col-md-12 mx-auto" >
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="https://github.com/inigo10rodri/Libre">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://facebook.com">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.youtube.com/watch?v=P93AdiCC_qI">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-youtube-square fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </html>
