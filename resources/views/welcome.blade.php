@@ -26,17 +26,26 @@
                         <a href="{{ route('register') }}">Register</a>
                     @endauth
                 </div>
-            @endif
-            <img src="css/foto.jpg" id="imagen">
-            <div class="content">
-                <div class="title m-b-md">
-                    BasketLive
+                <img src="css/foto.jpg" id="imagen">
+                <div class="content">
+                    @auth
+                        <div class="title m-b-md">
+                            BasketLive
+                        </div>
+                        <div class="links ">
+                            <p>Ya estas logueado y puedes acceder a todo nuestro contenido!</p>
+                        </div>
+                    @else
+                        <div class="title m-b-md">
+                            BasketLive
+                        </div>
+                        <div class="links ">
+                            <p><u><a href="{{ route('register') }}">Registrate</a></u> y podras acceder a todo nuestro contenido!</p>
+                        </div>
+                    @endauth
                 </div>
 
-                <div class="links ">
-                    <p><u><a href="{{ route('register') }}">Registrate</a></u> y podras acceder a todo nuestro contenido!</p>
-                </div>
-            </div>
+            @endif
         </div>
     </body>
     <footer>

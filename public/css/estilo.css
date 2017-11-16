@@ -75,15 +75,17 @@ input[type="button"]{
 }
 .tamanopanel{
     width: 175px;
-    height: 200px;
+    height: 250px;
     float: left;
     margin:20px;
 }
-#acb{
-    margin-bottom: 0px;
+.video{
+    align-content: center;
+    display:block;
+    margin: 0 auto;
 }
-#nba{
-    margin-bottom: 0px;
+.row{
+    text-align: center;
 }
 
 
