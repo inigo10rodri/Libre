@@ -27,6 +27,11 @@ html, body {
     right: 10px;
     top: 18px;
 }
+.top-left {
+    position: absolute;
+    left: 10px;
+    top: 18px;
+}
 
 .content {
     background-color: #000000;
@@ -84,9 +89,16 @@ input[type="button"]{
     display:block;
     margin: 0 auto;
 }
-.row{
+#textos{
     text-align: center;
 }
-
+.video1{
+    float: left;
+    margin:60px;
+}
+.video2{
+    float: left;
+    margin:10px;
+}
 
 

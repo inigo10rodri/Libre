@@ -28,3 +28,9 @@ Route::get('/acb', function () {
 Route::get('/nba', function () {
     return view('nba');
 });
+Route::get('/nosotros', function () {
+    return view('nosotros');
+});
+Route::get('/contenido', function () {
+    return view('contenido');
+});

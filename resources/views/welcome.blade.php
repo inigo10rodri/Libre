@@ -17,6 +17,13 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
+            <div class="top-left links">
+                <a href="{{ url('/') }}"> BasketLive</a>
+                <a href="nosotros">Sobre Nosotros</a>
+                <a href="contenido">Contenido</a>
+
+            </div>
+
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
