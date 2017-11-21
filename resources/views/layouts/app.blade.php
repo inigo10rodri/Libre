@@ -31,7 +31,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('APP_NAME', 'BasketLive') }}
+                        {{ config('APP_NAME', 'BasketLife') }}
                     </a>
                 </div>
 
