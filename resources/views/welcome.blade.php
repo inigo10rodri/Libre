@@ -44,7 +44,7 @@
                         </div>
                     @else
                         <div class="title m-b-md">
-                            BasketLive
+                            BasketLife
                         </div>
                         <div class="links ">
                             <p><u><a href="{{ route('register') }}">Registrate</a></u> y podras acceder a todo nuestro contenido!</p>
