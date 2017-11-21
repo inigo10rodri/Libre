@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>BasketLive</title>
+        <title>BasketLife</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -18,7 +18,7 @@
     <body>
         <div class="flex-center position-ref full-height">
             <div class="top-left links">
-                <a href="{{ url('/') }}"> BasketLive</a>
+                <a href="{{ url('/') }}"> BasketLife</a>
                 <a href="nosotros">Sobre Nosotros</a>
                 <a href="contenido">Contenido</a>
 
@@ -37,7 +37,7 @@
                 <div class="content">
                     @auth
                         <div class="title m-b-md">
-                            BasketLive
+                            BasketLife
                         </div>
                         <div class="links ">
                             <p>Ya estas logueado y puedes acceder a todo nuestro contenido!</p>
