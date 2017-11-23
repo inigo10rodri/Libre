@@ -1,21 +1,29 @@
 @extends('layouts.app')
 @section('content')
-<html>
-    <head>
-        <link href="css/estilo.css" rel="stylesheet" type="text/css">
-    </head>
-    <div class="video1">
-        <p id="textos">Las mejores jugadas de la temporada de 2017!</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="panel panel-default">
+                    <div class="panel-heading">ACB</div>
 
-        <iframe class="video" width="420" height="315"
-                src="https://www.youtube.com/embed/MMM8fLz2lCQ">
-        </iframe>
+                    <div class="panel-body">
+                        <div class="video2">
+                            <p id="textos">Las mejores jugadas de la historia de la ACB!</p>
+
+                            <iframe class="video" width="300" height="200"
+                                    src="https://www.youtube.com/embed/MMM8fLz2lCQ">
+                            </iframe>
+                        </div>
+                        <div class="video2">
+                            <p id="textos">Mejor partido de la historia de la ACB!</p>
+                            <iframe class="video" width="300" height="200"
+                                    src="https://www.youtube.com/embed/wSEvzHyKVK0">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="video1">
-        <p id="textos">Mejor partido de la historia de la ACB!</p>
-        <iframe class="video" width="420" height="315"
-            src="https://www.youtube.com/embed/wSEvzHyKVK0">
-        </iframe>
-    </div>
-</html>
+
     @endsection

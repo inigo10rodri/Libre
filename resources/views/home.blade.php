@@ -13,7 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                    <p>Ya puedes disfrutar de todo nuestro contenido y ver todos los partidos donde y cuando quieras!</p>
+                    <p>Ya puedes disfrutar de las mejores partidos y las mejores jugadas donde y cuando quieras!!</p>
                     <div class="panel panel-success tamanopanel">
                         <div class="panel-heading">Liga Endesa</div>
                         <div class="panel-body">

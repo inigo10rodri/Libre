@@ -1,6 +1,6 @@
 
 html, body {
-    background-color: #000000;
+    background-color: black;
     color: white;
     font-family: 'Samanata', Samanata;
     font-weight: 100;
@@ -34,7 +34,7 @@ html, body {
 }
 
 .content {
-    background-color: #000000;
+    background-color: black;
     text-align: center;
 }
 
@@ -61,16 +61,13 @@ html, body {
     height: 300px;
 }
 .navbar{
-    background-color: #000000;
+    background-color: black;
 }
 .panel-body{
-    background-color: #000000;
-}
-.panel-heading{
-    background-color: #000000;
+    background-color: black;
 }
 .panel{
-    background-color: #000000;
+    background-color: black;
 }
 a{
     color: green;
@@ -84,17 +81,8 @@ input[type="button"]{
     float: left;
     margin:20px;
 }
-.video{
-    align-content: center;
-    display:block;
-    margin: 0 auto;
-}
 #textos{
     text-align: center;
-}
-.video1{
-    float: left;
-    margin:60px;
 }
 .video2{
     float: left;

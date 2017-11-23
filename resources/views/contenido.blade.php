@@ -9,23 +9,10 @@
 
                     <div class="panel-body">
                         <div class="video2">
-                            <p id="textos">Las mejores jugadas de la temporada de 2017!</p>
+                            <p id="textos">Las mejores jugadas de la historia de la ACB!</p>
 
                             <iframe class="video" width="300" height="200"
                                     src="https://www.youtube.com/embed/MMM8fLz2lCQ">
-                            </iframe>
-                        </div>
-                        <div class="video2">
-                            <p id="textos">Mejor partido de la historia de la ACB!</p>
-                            <iframe class="video" width="300" height="200"
-                                    src="https://www.youtube.com/embed/wSEvzHyKVK0">
-                            </iframe>
-                        </div>
-                        <div class="video2">
-                            <p id="textos">Las mejores jugadas de la historia de la NBA!</p>
-
-                            <iframe class="video" width="300" height="200"
-                                    src="https://www.youtube.com/embed/SIngWFflA3g">
                             </iframe>
                         </div>
                         <div class="video2">

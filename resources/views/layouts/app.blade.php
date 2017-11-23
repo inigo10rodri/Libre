@@ -78,6 +78,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    <h1 id="textos">Contáctanos</h1>
     <footer>
         <div class="footer">
             <div class="row">
